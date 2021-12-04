@@ -1,5 +1,3 @@
-DEMO 
-
 # Controllable DCGAN 
 
 ## Summary

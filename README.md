@@ -1,7 +1,7 @@
 # Controllable DCGAN 
 
 ## Summary
- While DCGAN makes it possible to train a neural network using deep convolutional layers, Controllable DCGAN allows us to control specific features that are generated. This control is achieved by modifying the latent vector (z) input through the use of a classifier network. The classifier network is trained to classifier an image into one of 40 labels. The output of this classifier is used to update the latent input vector through stochastic gradient accent. 
+ While DCGAN makes it possible to train a generative adversarial network using deep convolutional layers, Controllable DCGAN allows us to control specific features that are generated. This control is achieved by modifying the latent vector (z) input through the use of a classifier network. The classifier network is trained to classifier an image into one of 40 labels. The output of this classifier is used to update the latent input vector through stochastic gradient accent. 
 
 ## Inputs
  The input for this project is the CelebA database of images of celebrities. Each of the image is assigned one of 40 features as label. 
